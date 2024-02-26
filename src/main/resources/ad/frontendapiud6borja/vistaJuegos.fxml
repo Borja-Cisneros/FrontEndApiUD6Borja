@@ -8,13 +8,13 @@
 
 <AnchorPane prefHeight="505.0" prefWidth="740.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ad.frontendapiud6borja.controladorJuegos">
    <children>
-      <TableView fx:id="juegos" layoutX="6.0" layoutY="59.0" prefHeight="437.0" prefWidth="355.0" style="-fx-background-color: aliceblue;">
+      <TableView fx:id="juegos" layoutX="6.0" layoutY="59.0" prefHeight="437.0" prefWidth="355.0">
         <columns>
           <TableColumn fx:id="jId" prefWidth="175.0" text="ID" />
           <TableColumn fx:id="jNombre" minWidth="6.0" prefWidth="179.0" text="Juego" />
         </columns>
       </TableView>
-      <TableView fx:id="puntuaciones" layoutX="378.0" layoutY="59.0" prefHeight="437.0" prefWidth="355.0" style="-fx-background-color: aliceblue;">
+      <TableView fx:id="puntuaciones" layoutX="378.0" layoutY="59.0" prefHeight="437.0" prefWidth="355.0">
          <columns>
             <TableColumn fx:id="pId" prefWidth="75.0" text="ID" />
             <TableColumn fx:id="pPuntuacion" prefWidth="98.0" text="Jugador" />

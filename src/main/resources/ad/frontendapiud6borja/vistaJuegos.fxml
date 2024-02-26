@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="505.0" prefWidth="740.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ad.frontendapiud6borja.controladorJuegos">
+   <children>
+      <TableView fx:id="juegos" layoutX="6.0" layoutY="59.0" prefHeight="437.0" prefWidth="355.0" style="-fx-background-color: aliceblue;">
+        <columns>
+          <TableColumn fx:id="jId" prefWidth="175.0" text="ID" />
+          <TableColumn fx:id="jNombre" minWidth="6.0" prefWidth="179.0" text="Juego" />
+        </columns>
+      </TableView>
+      <TableView fx:id="puntuaciones" layoutX="378.0" layoutY="59.0" prefHeight="437.0" prefWidth="355.0" style="-fx-background-color: aliceblue;">
+         <columns>
+            <TableColumn fx:id="pId" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="pPuntuacion" prefWidth="98.0" text="Jugador" />
+            <TableColumn fx:id="pJugador" prefWidth="86.0" text="Puntos" />
+            <TableColumn fx:id="pIdJuego" prefWidth="95.0" text="Juego" />
+         </columns>
+      </TableView>
+      <Label layoutX="122.0" layoutY="18.0" text="Tabla Juegos">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="470.0" layoutY="18.0" text="Tabla Puntaciones">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

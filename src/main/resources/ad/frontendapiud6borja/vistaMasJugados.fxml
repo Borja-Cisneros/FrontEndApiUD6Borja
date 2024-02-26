@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ad.frontendapiud6borja.controladorMasJugados">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="440.0" style="-fx-background-color: lightblue;">
+         <children>
+            <TableView fx:id="tabla" layoutX="95.0" layoutY="74.0" prefHeight="300.0" prefWidth="240.0" style="-fx-background-color: aliceblue;">
+              <columns>
+                <TableColumn fx:id="jmjNombre" prefWidth="120.0" text="Juego" />
+                <TableColumn fx:id="jmjJugadores" prefWidth="119.0" text="Jugadores" />
+              </columns>
+            </TableView>
+            <Label layoutX="83.0" layoutY="23.0" text="Juegos más jugados">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
